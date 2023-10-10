@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table border="1px"> <!-- border is layout, beter css gebruiken-->
+
+    <thead> <!-- hoofd v tabel -->
+    <tr> <!-- tr = table row dus rijen-->
+        <th colspan="3">kolom 1</th> <!-- table head/kolom-->
+       <!-- <th>kolom 2</th>
+        <th>kolom 3</th>   door colspan is deze code niet meer nodig -->
+    </tr>
+    </thead>
+    <tbody>
+    <tr> <!-- tweede rij v tabel-->
+        <td colspan="3">1</td> <!-- table data -->
+       <!-- colspan worden 2 of meer kolommen samengevoegd, de andere kolommen moet w verwijderd uit code -->
+
+    </tr>
+    <tr> <!-- derde rij v tabel -->
+        <td rowspan="2">4</td><!-- rowspan 2 of meer rijen samenvoegen -->
+        <td>5</td>
+        <td>6</td>
+    </tr>
+    <tr>
+       <!-- <td>7</td>  niet meer nodig door rowspan -->
+        <td>8</td>
+        <td>9</td>
+    </tr>
+    </tbody>
+</table>
+
+<table border="1px">
+
+    <thead>
+    <tr>
+        <th>kolom 1</th>
+        <th>kolom 2</th>
+        <th>kolom 3</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

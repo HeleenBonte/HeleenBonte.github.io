@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Personal homepage</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script>
+        $( function() {
+            $( "#accordion1,#accordion2" ).accordion({
+                heightStyle: "content",
+
+                collapsible:true
+            });
+
+        } );
+    </script>
+</head>
+<body>
+
+<header>
+    <h2>Dit is de website van</h2>
+    <h1>Nunya</h1>
+</header>
+<nav>
+    <header>
+        <h3>Op deze pagina vind je volgende informatie terug</h3>
+    </header>
+    <ol>
+        <li>Persoonlijke info</li>
+        <li>Hobbies</li>
+        <li>Likes &amp; Interests</li>
+    </ol>
+</nav>
+<article>
+    <header>
+        <h2>Persoonlijke Informatie</h2>
+    </header>
+    <section id="accordion1">
+        <h3>Naam</h3>
+            <h4>Nunya Bizniz
+            <img src="Images/Silly cow.jpg" height="301" width="200" alt="Silly"/></h4>
+        <h3>Adres</h3>
+        <h4>Budastraat 35, 8500 Kortrijk</h4>
+        <h3>Telefoonnummer</h3>
+        <h4>7083170</h4>
+        <h3>Email adres</h3>
+        <h4><a href="mailto:business@noneofyours.com">business@noneofyours.com</a></h4>
+    </section>
+</article>
+<article>
+    <h2>Hobbies</h2>
+   <section id="accordion2">
+        <h3>Gaming </h3>
+       <div>
+       <p>Ik speel verschillende games op computer en Switch</p>
+            <ol>
+                <li><a href="https://terraria.org/">terraria</a></li>
+                <li><a href="https://teamfighttactics.leagueoflegends.com/en-gb/">TeamFightTactics</a></li>
+                <li><a href="https://elderscrolls.bethesda.net/en">TheElderScrolls</a></li>
+            </ol>
+       </div>
+       <h3>Fietsen </h3>
+            <p>Als het mooi weer is ga ik graag gaan fietsen.
+            <a href="https://cycling.vlaanderen/">Wielerbond Vlaanderen</a></p>
+        <h3>Lezen</h3>
+            <p>Als het slecht weer is, lees ik binnen een boek.
+            <a href="https://kortrijk.bibliotheek.be/">Bib Kortrijk</a></p>
+        <h3>Koken </h3>
+            <p>Ik volgde een kookopleiding en kook in mijn vrije tijd graag eens nieuwe gerechtjes.
+            <a href="https://www.hotelschoolkoksijde.be/">Hotelschool Koksijde</a></p>
+   </section>
+    <h2>Likes &amp; Interests</h2>
+    <h3>Music</h3>
+    <table>
+        <thead>
+        <tr>
+            <th>Ed Sheeran </th>
+            <th>Michael Jackson</th>
+            <th>Lewis Capaldi</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><a href="https://www.edsheeran.com/"><img src="Images/Ed.jpeg" height="145" width="192" alt="Ed"/></a></td>
+            <td> <a href="https://www.michaeljackson.com/"><img src="Images/MJ.jpeg" height="168" width="300" alt="MJ"/></a></td>
+            <td><a href="https://www.lewiscapaldi.com/"> <img src="Images/Lewis.jpeg" height="225" width="225" alt="Lewis"/></a></td>
+        </tr>
+        </tbody>
+    </table>
+    <h3>Movies</h3>
+    <table>
+        <thead>
+        <tr>
+            <th>MCU</th>
+            <th>Les Miserables</th>
+            <th>The Imitation Game</th>
+            <th>The Lord of the Rings</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><a href="https://www.marvel.com/movies"><img src="Images/MCU.png" height="229" width="405" alt="MCU"/></a>
+                <ol>
+                    <li>The Avengers</li>
+                    <li>Iron Man</li>
+                    <li>Black Panther</li>
+                    <li>...</li>
+                </ol></td>
+            <td><a href="https://www.imdb.com/title/tt1707386/"><img src="Images/LesMis.jpeg" height="273" width="184" alt="Les Miserables"/></a></td>
+            <td><a href="https://www.imdb.com/title/tt2084970/"><img src="Images/Imitation.jpeg" height="168" width="300" alt="The Imitation Game"/></a></td>
+            <td><a href="https://www.imdb.com/title/tt0120737/"><br><img src="Images/LotR.jpeg" height="216" width="384" alt="LotR"/></a></td>
+        </tr>
+        </tbody>
+    </table>
+</article>
+<footer>
+    <h1>HAVE A NICE DAY!</h1>
+    <img src="Images/Carpe Diem.jpeg" height="183" width="275" alt="CarpeDiem"/></footer>
+</body>
+</html>
