@@ -1,0 +1,29 @@
+h1,h2 {
+    color : navy;
+}
+
+section>span>h1{
+    color:darkgreen;
+    font-size: 3em;
+}
+/* commentaar zoals in java*/
+/*
+h2{
+    color:navy;
+}
+kan gewoon door komma en h2 als het zelfde opmaak is
+*/
+/* class */
+.styleMaroon{
+    color : maroon;
+    font-size: 4em;
+}
+/*
+.styledarkgreen{
+    color: darkgreen;
+}
+*/
+/* ID */
+#opmaak {
+    color: darkviolet;
+}
