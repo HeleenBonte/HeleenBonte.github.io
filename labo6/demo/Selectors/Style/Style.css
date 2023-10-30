@@ -1,0 +1,36 @@
+body {
+    background-color:yellow;
+    font-size: 2em;
+}
+h1/*element selector*/{
+    font-size: 4em;
+    background-color:red;
+}
+
+/*pseudo-element selector zorgt voor gedeeltelijke opmaak van het element*/
+p:first-letter{
+    font-size: 5em;
+    color:red;
+}
+p{
+    background-color: lightblue;
+}
+
+/*eerste lijn w onderstreept
+p:first-line{
+    text-decoration: underline;
+}
+
+pseudo-class selector, op basis v gedrag*/
+a:link{
+    text-decoration: none; /*geen onderlijning meer bij hyperlink*/
+}
+
+li>a:hover{
+    text-decoration: underline;
+}
+
+li:nth-child(2n+1){ /*2n = alle even elementen, 2n+1 = alle oneven elementen*/
+    color:blue;
+}
+
