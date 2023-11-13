@@ -1,0 +1,30 @@
+header.hoofd h1 /*specifiteit: 0 0 1 2 */
+{
+    color: grey;
+}
+
+header h1 /*specifiteit: 0 0 0 2 */
+{
+    color: beige;
+}
+
+h1 /*specifiteit: 0 0 0 1 */
+{
+    color: red;
+}
+
+h1 /*specifiteit: 0 0 0 1 */
+{
+    color: blue;
+}
+
+/*
+specifiteit: door header ervoor te plaatsen wordt er specifieker gezegd welke kleur de h1 binnen de header moet hebben
+hogere specificiteit wint zie p 32
+
+bij conflict wint de laatste regel
+in head: link boven style-blok -> style-blok wint
+style-blok boven link -> link wint
+
+
+ */

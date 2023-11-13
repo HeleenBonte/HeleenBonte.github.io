@@ -1,0 +1,20 @@
+tr.week :first-child {
+    background-color: rgb(255,220,220);
+}
+tr.week :last-child {
+    background-color: rgb(255,220,220);
+}
+thead {
+    background-color: rgb(250,120,120);
+}
+tr.dag {
+    color: rgb(200,190,240);
+    background-color: rgb(35,37,70);
+}
+.vrij {
+    background-color: rgb(250,120,120);
+}
+tr.week td.difMonth {
+    background-color: darkgray;
+    color: grey;
+}
