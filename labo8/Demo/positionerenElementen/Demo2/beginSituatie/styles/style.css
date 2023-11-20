@@ -1,0 +1,56 @@
+body {
+    background-color: silver;
+    margin: 0;
+    padding: 0;
+}
+div#wrapper {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+header img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+section#midden{
+    float: left;
+    background-color: maroon;
+    width: 80%;
+    padding: 10px;
+    height: 200px;
+    border: 2px solid black;
+    box-sizing: border-box; /*bepaalt de breedte van de box tot max 80%*/
+}
+nav {
+    background-color: white;
+    width: 20%;
+    float: left;
+    height: 200px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+nav li {
+    list-style:none;
+}
+
+footer {
+    background-color: green;
+    clear: both;
+    height: 75px;
+    text-align: center;
+}
+.breedte {
+    display: inline-block; /* w block, maar binnen de lijn waar hij staat (niet op nieuwe regel)*/
+    width: 60px;
+    background-color: green;
+    border: 2px solid black;
+    /* width: 500px; bij inline element heeft width geen functie*/
+    margin: 10px; /*margin en padding enkel op horizontaal */
+    padding:10px;
+
+
+
+}
