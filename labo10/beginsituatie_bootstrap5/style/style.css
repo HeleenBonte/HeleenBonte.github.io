@@ -1,0 +1,11 @@
+
+.even{
+    min-height: 100px;
+    border: 10px solid white;
+    background-color: lightgrey;
+}
+.oneven{
+    min-height: 100px;
+    border: 10px solid white;
+    background-color: grey;
+}
