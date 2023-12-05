@@ -1,0 +1,79 @@
+/* items */
+
+section div {
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 3em;
+   /* border: 10px solid white;*/
+
+}
+
+/* specific item styles */
+
+.item-1 {
+    background: #b03532;
+}
+.item-2 {
+    background: #33a8a5;
+}
+.item-3 {
+    background: #30997a;
+}
+.item-4 {
+    background: #6a478f;
+}
+.item-5 {
+    background: #da6f2b;
+}
+.item-6 {
+    background: #3d8bb1;
+}
+.item-7 {
+    background: #e03f3f;
+}
+.item-8 {
+    background: #59a627;
+}
+.item-9 {
+    background: #4464a1;
+}
+
+section{
+    display: grid; /* maakt een grid container(rooster)
+    aan en alle descendants vallen in dit rooster*/
+
+    grid-template-columns: 1fr 2fr 1fr; /*3 kolommen aanmaken,
+    2e kolom is dubbel zo groot als de andere 2
+    ook: grid-template-columns: 25% 50% 25% */
+
+    /*grid-template-rows: auto auto auto; */
+    /*of elke rij even hoog*/
+    grid-template-rows: 1fr 3fr 1fr;
+
+    grid-gap: 20px; /*plaats tussen 2 cellen*/
+}
+
+@media screen and (max-width: 760px){
+    section{
+        /*hier geen display:grid; want is al gedefinieerd in originele code,
+        enkel afwijkende code in de mediaquery plaatsen*/
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(6,1fr); /*= 1fr 1fr 1fr 1fr 1fr 1fr*/
+    }
+
+    .item-1{
+        grid-area: 6/1 / 7/3;
+        /* begin rij / begin kol  /  einde rij / einde kol
+        uittekenen!!*/
+    }
+    .item-3{
+        grid-area: 4/1 / 5/3;
+    }
+    .item-6{
+        grid-area: 5/1 / 6/3;
+    }
+    .item-9{
+        grid-area: 1/1 / 2/1;
+    }
+}
