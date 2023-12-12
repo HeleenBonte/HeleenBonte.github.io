@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <script type="text/javascript" charset="utf-8"
+            src="scripts/code.js"></script>
+    <title>Title</title>
+    <style>
+
+        body {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        body > * {
+            background: #eee;
+            padding: 2rem;
+            text-align: center;
+            border: 5px solid white;
+        }
+
+        .header,
+        .footer {
+            flex:  100%;
+        }
+        .sidebar {
+            flex: 1;
+        }
+        .main {
+            flex: 2;
+        }
+    </style>
+</head>
+<body>
+<header class="header">Header</header>
+<main class="main">Main</main>
+<aside class="sidebar">Sidebar</aside>
+<footer class="footer">Footer</footer>
+</body>
+</html>
