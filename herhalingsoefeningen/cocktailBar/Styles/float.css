@@ -1,0 +1,81 @@
+html{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font: 1.2em Verdana, Helvetica, Arial, sans-serif;
+}
+#wrapper {
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.title {
+    color: #007e7e;
+}
+.specials {
+    color: crimson;
+
+}
+h1.title {
+    font-size: 150%;
+}
+h2.title {
+    font-size: 130%;
+}
+section {
+    width: 70%;
+    float: left;
+}
+.specialsblock {
+    float: right;
+    width: 30%;
+    box-sizing: border-box;
+    border: 1px solid #007e7e;
+    text-align: center;
+    padding: 2%;
+    background-image: url("../images/cocktail.gif");
+    background-repeat: repeat-x;
+    line-height: 1;
+}
+.specialsblock a:hover{
+    background-color: saddlebrown;
+
+}
+a:link{
+    color: dimgrey;
+}
+footer{
+    font-size: 50%;
+    text-align: center;
+    clear: both;
+}
+p#guarantee{
+    line-height: 1.9em;
+    background-image: url("../images/backgroundpng.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    margin: 30px;
+    padding: 25px 25px 25px 50px;
+    color: #444444;
+    background-color: #a7cece;
+    border: 1px dashed white;
+    font-style:          italic;
+    font-family:         Georgia, "Times New Roman", Times, serif;
+
+}
+section article{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cocktails{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+p{
+    padding: 5px;
+    margin: 0;
+}

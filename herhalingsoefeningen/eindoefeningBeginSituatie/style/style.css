@@ -1,0 +1,68 @@
+.grid{
+    text-align: center;
+}
+
+.caption {
+    font-family: helvetica;
+    font-size: 16px;
+    margin-top: 12px;
+
+}
+
+.gridHeader {
+    background-color: #dcd6fe;
+    padding: 20px;
+    grid-area: header;
+}
+
+.gridNav {
+    background-color: #c6c0ff;
+    padding: 20px;
+    grid-area: nav;
+}
+
+.gridMain {
+    background-color: #f9f6d2;
+    padding: 20px;
+    grid-area: main;
+}
+
+.gridAside {
+    background-color: #d4ffd1;
+    padding: 20px;
+    grid-area: aside;
+}
+
+.gridFooter {
+    background-color: #ffd1d1;
+    padding: 20px;
+    grid-area: footer;
+}
+@media screen  and (min-width: 786px){
+
+    .grid{
+        min-height: 800px;
+        display: grid;
+        grid-template-areas:
+                'header header header header header'
+                '. nav main aside .' /*een puntje kan gebruikt worden
+                om aan te tonen dat er een kolom is, maar dat deze
+                niet wordt gebruikt*/
+                'footer footer footer footer footer';
+        grid-template-columns: 5% 10% auto 10% 5%;
+        grid-template-rows: 1fr 4fr 1fr;
+
+    }
+}
+@media screen and (max-width: 786px){
+    .grid{
+        grid-template-areas:
+                'header'
+                'nav'
+                'main'
+                'aside'
+                'footer';
+        grid-template-columns: auto;
+    }
+}
+
