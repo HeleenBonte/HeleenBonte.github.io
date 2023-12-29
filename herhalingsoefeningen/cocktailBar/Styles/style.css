@@ -1,12 +1,12 @@
 html{
-    margin: 0;
-    padding: 0;
+     margin: 0;
+     padding: 0;
 
-}
+ }
 body{
     font: 1.2em Verdana, Helvetica, Arial, sans-serif;
 }
-#wrapper {
+body{
     width: 95%;
     margin-right: auto;
     margin-left: auto;
@@ -24,13 +24,7 @@ h1.title {
 h2.title {
     font-size: 130%;
 }
-section {
-    width: 70%;
-    float: left;
-}
 .specialsblock {
-    float: right;
-    width: 30%;
     box-sizing: border-box;
     border: 1px solid #007e7e;
     text-align: center;
@@ -49,7 +43,6 @@ a:link{
 footer{
     font-size: 50%;
     text-align: center;
-    clear: both;
 }
 p#guarantee{
     line-height: 1.9em;

@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <title>cocktailbar Bootstrap</title>
     <link rel="stylesheet" href="Styles/bootstrap-grid.css">
+    <link rel="stylesheet" href="Styles/style.css">
 </head>
 <body>
 <div class="container>">
     <div class="row">
-    <header>
+    <header class="order-0">
         <p><img class="cocktails" src="images/cocktails.png" alt="Cocktail Bar"/></p>
     </header>
-    <article class="specialsblock">
+    <article class="specialsblock col-3 order-2">
         <h1>Weekly  Specials</h1>
         <p>
             <img src="images/yellow.gif" alt="Lemon Breeze Elixir"/>
@@ -52,7 +53,7 @@
         </p>
 
     </article>
-    <section>
+    <section class="col-9 order-1">
         <article>
             <h1 class="title">ORIGIN OF THE WORD “COCKTAIL</h1>
             <p>
@@ -107,7 +108,7 @@
             </ul>
         </article>
     </section>
-    <footer>
+    <footer class="order-3">
         &copy; 2015, Cocktail Bar<br/>
         All trademarks and registered trademarks appearing on this site are
         the property of their respective owners.

@@ -16,9 +16,10 @@ section{
 }
 div > img{
     max-height: 400px;
-    padding: 20px;
-    background: white;
-    border: dashed grey 2px;
+    padding: 15px;
+    margin: 10px;
+    background: deeppink;
+    border: dashed greenyellow 2px;
 
 }
 footer > img{
