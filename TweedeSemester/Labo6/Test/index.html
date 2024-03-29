@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+	<title>Kip en ei</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link href="styles/style.css" rel="stylesheet">
+</head>
+<body>
+	<!-- Voeg hier het tesktvak en de keuzelijst toe
+staat van de kip --kies-- - met een ei - zonder een ei
+	geef een letter  #
+	hierboven, een kip met een ei //zonder
+	letter komt x keer voor in bovenstaande zin
+	 -->
+
+	<form >
+		<div>
+			<label for="slcEi">Staat van de kip:</label>
+			<select id="slcEi">
+				<option value="1">--kies--</option>
+				<option value="2">met een ei</option>
+				<option value="3">zonder een ei</option>
+			</select>
+		</div>
+		<div>
+			<label for="txtLetter">Geef een letter:</label>
+			<input type="text" id="txtLetter">
+		</div>
+	</form>
+	<div id="img"  class="hidden"></div>
+	<p id="note"></p>
+	<p id="count"></p>
+	<script type="text/javascript" charset="utf-8" src="scripts/code.js"></script>
+</body>
+</html>
