@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 95%;
+}
+#speelveld{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    max-width: 630px;
+    gap: 10px;
+    margin: 15px;
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.hidden, .youWin{
+    display: none;
+}
+.memory{
+    /*reeds gekozen*/
+}
+.kaart{
+    background: url("../images/achterkant.png");
+    width: 150px;
+    height: 112px;
+}
+.gevonden{
+    filter: grayscale(100%);
+}
+.overlay{
+    position: absolute;
+}
