@@ -92,6 +92,6 @@ const reset = () => {
     document.getElementById('youWin').className = 'youWin';
     let voorkantenCol = document.getElementsByClassName("gevonden");
     setRandomPictures(voorkantenCol);
-    global.gedraaidekaarten = 0;
+    global.gevondenparen = 0;
 }
 window.addEventListener("load", setup);
